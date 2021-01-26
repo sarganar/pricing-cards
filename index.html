@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Componentt Challenge</title>
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/toggle-switchy.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="type-plan">
+            <h2>Our Pricing</h2>
+            <div class="plan-container">
+                <p>Annually</p>
+                <label for="toggle-plan" class="toggle-switchy" data-style="rounded" data-size="xs" data-text="false"
+                    data-color="grayish-blue">
+                    <input checked type="checkbox" id="toggle-plan">
+                    <span class="toggle">
+                        <span class="switch"></span>
+                    </span>
+                </label>
+                <p>Monthly</p>
+            </div>
+        </section>
+        <section class="pricing-plan">
+            <div class="product-card tipical-plan">
+                <h3>Basic</h3>
+                <p class="price" id="basic"><span>$</span>19.99</p>
+                <ul>
+                    <li>500 GB Storage</li>
+                    <li>2 Users Allowed</li>
+                    <li>Send up to 3 GB</li>
+                </ul>
+                <button class="btn">LEARN MORE</button>
+            </div>
+
+            <div class="product-card highlight">
+                <h3>Professional</h3>
+                <p class="price" id="professional"><span>$</span>24.99</p>
+                <ul>
+                    <li>1 TGB Storage</li>
+                    <li>5 Users Allowed</li>
+                    <li>Send up to 10 GB</li>
+                </ul>
+                <button class="btn">LEARN MORE</button>
+            </div>
+
+            <div class="product-card tipical-plan">
+                <h3>Master</h3>
+                <p class="price" id="master"><span>$</span>39.99</p>
+                <ul>
+                    <li>2 TB Storage</li>
+                    <li>10 Users Allowed</li>
+                    <li>Send up to 20 GB</li>
+                </ul>
+                <button class="btn">LEARN MORE</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
