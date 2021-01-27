@@ -156,7 +156,7 @@ h2 {
   z-index: -1;
 }
 .bg-bottom {
-  /* display: none; */
+  display: none;
   position: absolute;
   bottom: 5rem;
   z-index: -1;
