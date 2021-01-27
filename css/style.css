@@ -16,19 +16,20 @@ html {
   margin: 0 auto;
 }
 
+/* ------------- STYLES -----------------------*/
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f7f7ff;
-  background-image: url("../assets/bg-top.svg");
+  /* background-image: url("../assets/bg-top.svg");
   background-repeat: no-repeat;
-  background-position: 17rem -5rem;
+  background-position: 17rem -5rem; */
 }
 
 p {
   margin: 0;
 }
 
-/* CABECERA */
+/* -------------- CABECERA -------------------*/
 .type-plan {
   text-align: center;
 }
@@ -45,7 +46,7 @@ h2 {
   color: hsl(232, 13%, 33%);
 }
 
-/* PRICING CARDS */
+/* --------------- PRICING CARDS ------------------------*/
 .product-card {
   --text-color: hsl(232, 13%, 33%);
   --color-one: white;
@@ -95,7 +96,7 @@ h2 {
 
 @media (min-width: 768px) {
   .product-card.highlight {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
@@ -145,4 +146,39 @@ h2 {
   background: transparent;
   border: 1px solid var(--border-color-btn-hover);
   color: var(--text-color-btn-hover);
+}
+
+/* ---------------- BACKGROUND IMGs ------------------*/
+.bg-top {
+  position: absolute;
+  top: 0;
+  right: -22rem;
+  z-index: -1;
+}
+.bg-bottom {
+  /* display: none; */
+  position: absolute;
+  bottom: 5rem;
+  z-index: -1;
+}
+@media (min-width: 768px) {
+  .bg-top {
+    top: 0;
+    right: 0;
+  }
+  .bg-bottom {
+    display: initial;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+/* ----------  ATRIBUTION --------------------*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
