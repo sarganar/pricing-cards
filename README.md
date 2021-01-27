@@ -1,5 +1,7 @@
 # FEC CHALLENGE  - File Transfer pricing component (from Frontend Mentor)
 
+![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
+
 ## The challenge
 
 Your challenge is to build out this pricing component and get it looking as close to the design as possible.
